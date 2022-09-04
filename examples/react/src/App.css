@@ -8,21 +8,29 @@
 }
 
 .App-header {
-  background-color: rgb(34, 34, 34);
+  background-color: rgb(35, 6, 6);
   height: 150px;
   padding: 20px;
-  color: white;
+  color: grey;
 }
 
 .App-title {
-  font-size: 1.75em;
+  font-size:1.5em;
+  font-size: 2em;
   font-weight: "bold";
+  color:red;
 }
 
 .App-intro {
   font-size: large;
 }
 
+.App-footer{
+  background-color: rgb(35, 6, 6);
+  height: 150px;
+  padding: 20px;
+  color: grey;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
