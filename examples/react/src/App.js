@@ -25,6 +25,10 @@ class App extends Component {
             <p key={i} className="odd">This side bar is perfect</p>
           )}
         </SimpleBar>
+        <footer className="App-footer">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1 className="App-title">Thanks for Visit simplebar</h1>
+        </footer>
         </div>
 
         const Tab = createBottomTabNavigator();
